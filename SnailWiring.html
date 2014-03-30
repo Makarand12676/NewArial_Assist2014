@@ -1,0 +1,83 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <title>Wiring</title>
+    <style type="text/css" media="screen">
+      table {
+          text-align: left;
+          width: 400px;
+      
+          border-top: 2px solid black; 
+          border-bottom: 2px solid black;
+          border-collapse:collapse;
+          border-spacing:0px;
+      }
+      th {
+          border-top: 2px solid black; 
+          border-bottom: 2px solid black;
+      }
+      .pound {
+          width: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Wiring</h1>
+
+                    <h2>DIO on Digital Sidecar 1</h2>
+	<table><tr>
+	<th class="pound">#</th>
+	<th>Sensor</th></tr>
+	            	    <tr><td>1</td><td>DriveSystem DriveEncoderLeft Channel A </td></tr>
+	            	    <tr><td>2</td><td>DriveSystem DriveEncoderLeft Channel B </td></tr>
+	                                                            	    <tr><td>7</td><td>Compressor compressorSafety Input </td></tr>
+	                                                                                                                                                                 	</table>
+                
+                    <h2>PWMs on Digital Sidecar 1</h2>
+	<table><tr>
+	<th class="pound">#</th>
+	<th>Motor</th></tr>
+	            	    <tr><td>1</td><td>DriveSystem rearLeftDrive Output </td></tr>
+	                        	    <tr><td>3</td><td>DriveSystem rearRightDrive Output </td></tr>
+	            	    <tr><td>4</td><td>DriveSystem frontRightDrive Output </td></tr>
+	            	    <tr><td>5</td><td>ShooterSystem shooterFrontRight Output </td></tr>
+	            	    <tr><td>6</td><td>ShooterSystem shooterBackRight Output </td></tr>
+	            	    <tr><td>7</td><td>ShooterSystem shooterBackLeft Output </td></tr>
+	            	    <tr><td>8</td><td>ShooterSystem shooterFrontLeft Output </td></tr>
+	            	    <tr><td>9</td><td>DriveSystem frontLeftDrive Output </td></tr>
+	            	    <tr><td>10</td><td>Intakesystem intakeVictor Output </td></tr>
+	                                                                                                                             	</table>
+                        <h2>PWMs on Digital Sidecar 2</h2>
+	<table><tr>
+	<th class="pound">#</th>
+	<th>Motor</th></tr>
+	            	    <tr><td>1</td><td>DriveSystem VirtualRightDrive Output </td></tr>
+	            	    <tr><td>2</td><td>DriveSystem VirtualLeftDrive Output </td></tr>
+	                                                                                                                                                                                                                             	</table>
+    
+            
+                    <h2>Relays on Digital Sidecar 1</h2>
+	<table><tr>
+	<th class="pound">#</th>
+	<th>Relay</th></tr>
+	                                                            	    <tr><td>5</td><td>Compressor compressorSpike Output </td></tr>
+	                                                                                                                                                                                         	</table>
+                
+                    <h2>Analog Module 1</h2>
+	<table><tr>
+	<th class="pound">#</th>
+	<th>Sensor</th></tr>
+	            	    <tr><td>1</td><td>DriveSystem Gyro1 Input </td></tr>
+	                                                                                                                                                                                                                                         	</table>
+                    
+                    <h2>Solenoid Module 1</h2>
+	<table><tr>
+	<th class="pound">#</th>
+	<th>Solenoid</th></tr>
+	            	    <tr><td>1</td><td>ShooterAngleSystem shooterAngleControllerOne Output </td></tr>
+	            	    <tr><td>2</td><td>ShooterAngleSystem shooterAngleControllerTwo Output </td></tr>
+	            	    <tr><td>3</td><td>Intakesystem intakeAngleControllerOne Output </td></tr>
+	            	    <tr><td>4</td><td>Intakesystem intakeAngleControllerTwo Output </td></tr>
+	                                                                                                                                                                                                     	</table>
+                    
+  </body>
+</html>
